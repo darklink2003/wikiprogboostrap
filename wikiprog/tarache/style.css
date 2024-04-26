@@ -1,0 +1,64 @@
+/* container padre */
+/* input del cuadro de busqueda */
+input[type="text"] {
+    margin-left: 5%;
+    width: 300px; 
+  }
+  /* columna area de cursos */
+  #contenedor_cursos{
+    padding: 15%;
+    margin-top: 20%;
+    padding: 5px;
+    padding: 15px;
+  }
+/* estilos de el apartado de grupo de cursos  */
+#lineas_html{
+    border:1px solid black;
+    background-color: #ed7d31;
+    padding: 10px ;
+    border-radius: 15px;
+}
+#lineas_php{
+    border:1px solid black;
+    background-color: #7377ad;
+    border-radius: 15px;
+}
+#lineas_phyton{
+    border:1px solid black;
+    background-color: #ffc000;
+    border-radius: 15px;
+}
+#lineas_css{
+    border:1px solid black;
+    background-color: #00b0f0;
+    padding: 10px ;
+    border-radius: 15px;
+}
+#lineas_javascript{
+    border:1px solid black;
+    background-color: #ffc000;
+    border-radius: 15px;
+}
+#lineas_cmas{
+    border:1px solid black;
+    background-color: #6295cb;
+    border-radius: 15px;
+}
+#lineas_word{
+    border:1px solid black;
+    background-color: #0070c0;
+    padding: 10px ;
+    border-radius: 15px;
+}
+#lineas_excel{
+    border:1px solid black;
+    background-color: #00b050;
+    border-radius: 15px;
+}
+#lineas_point{
+    border:1px solid black;
+    background-color: #ff2f2f;
+    border-radius: 15px;
+}
+
+  

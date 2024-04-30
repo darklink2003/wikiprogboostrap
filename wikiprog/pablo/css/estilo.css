@@ -1,5 +1,6 @@
 .container {
     text-align: center;
+
 }
 
 #containerregistro {
@@ -8,7 +9,6 @@
     border: 3px solid aqua;
     background-color: #353349;
     padding: 20px;
-    width: 30%;
 }
 
 .containerregistro input {
@@ -84,4 +84,14 @@ a {
     background-color: #28a745;
     border-color: #28a745;
 }
+#columna1{
+    width: 25%;
+    padding: 15px;
+    margin-left: 50px;
+}
 
+#columna3{
+    width: 25%;
+    padding: 15px;
+    margin-left: 50px;
+}

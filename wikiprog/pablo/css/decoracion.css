@@ -1,15 +1,35 @@
+/* decoracion.css */
 
-.conteiner {
-    border: 2px solid #000000; 
-    border-radius: 10px; 
-    padding: 20px; 
+#izquierda {
+    background-color: blueviolet;
+    height: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 20px;
 }
 
-.row {
-    margin-bottom: 10px; 
+.enlace {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 10px; /* Ajusta el valor de acuerdo a tu preferencia */
 }
 
-.col-md-4 {
-    border: 1px solid #030303; 
-    padding: 10px; 
+.container-fluid {
+    margin-top: 10%;
+    padding: 0px;
+}
+
+.container {
+    max-width: 100%;
+    background-color: rgb(24, 29, 29);
+    color: white;
+}
+
+#busqueda {
+    background-color: rgb(19, 19, 24);
+}
+
+.columna-titulo {
+    cursor: pointer;
 }

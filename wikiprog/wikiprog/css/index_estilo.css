@@ -1,0 +1,115 @@
+body{
+    background-image: url(img/FONDO.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    background-color: #353349;
+    max-width: 100%;
+}
+.container_2{
+    max-width: 100%;
+    padding: 10%;
+
+}
+
+#busqueda {
+    background-color: #353349;
+    height: 30px;
+    width: 75%;
+    margin-top: 3%;
+    color: white;
+}
+.input-with-icon input {
+    padding-left: 30px; /* Espacio para la imagen */
+    background-image: url(img/lupa2.png); /* Ruta de la imagen */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-position: right center; /* Posición de la imagen */
+    background-size: 20px; /* Tamaño de la imagen */
+    color: white; /* Color del texto */
+    width: 100%; /* Ancho del input */
+}
+.container .col-md-6 a {
+    margin-right: 15px; /* Ajusta este valor según tu preferencia */
+    margin-bottom: 10%;
+
+}
+.container .row > div:last-child {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container .row > div:last-child img {
+    margin-right: 10px; /* Ajusta este valor según tu preferencia */
+}
+#enlaces{
+    margin-top: 1%;
+}
+#enlaces a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para el botón del menú */
+.dropbtn {
+    background-color: #353349;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos para el contenedor del menú */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Estilos para el contenido del menú */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #353349;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    list-style: none;
+    border-radius: 50px ;
+    border:1px solid white;
+    
+
+}
+.hr{
+    background-color: white;
+}
+
+/* Estilos para los elementos de la lista del menú */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Cambio de estilo al pasar el ratón sobre los elementos de la lista */
+.dropdown-content a:hover {
+   
+    text-align: left;
+}
+
+/* Mostrar el menú cuando el botón se haga clic */
+.dropdown:hover .dropdown-content {
+    display: block;
+}

@@ -1,0 +1,50 @@
+/* decoracion.css */
+body{
+    background-image: url(img/FONDO.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+#izquierda {
+    background-color:  rgb(24, 29, 29);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.enlace {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 10px; 
+}
+
+.container-fluid {
+    
+    margin-top: 5%;
+    padding: 0px;
+}
+
+.container {
+    padding: 10px;
+    background-color: rgb(24, 29, 29);
+    color: white;
+    height: auto;
+
+}
+
+#busqueda {
+    background-color: rgb(12, 12, 13);
+    height: 30px;
+}
+
+.columna-titulo {
+    cursor: pointer;
+}
+.input-with-icon input {
+    padding-left: 30px; /* Espacio para la imagen */
+    background-image: url(img/lupa2.png); /* Ruta de la imagen */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-position: right center; /* Posición de la imagen */
+    background-size: 20px; /* Tamaño de la imagen */
+    color: white; /* Color del texto */
+    width: 100%; /* Ancho del input */
+}

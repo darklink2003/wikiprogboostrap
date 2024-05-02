@@ -1,0 +1,56 @@
+.container_terminos {
+    color: #ffffff;
+    text-align: left;
+    border-radius: 50px;
+    background-color: #353349;
+    width: 100%;
+    border: 3px solid aqua;
+    padding: 20px;
+}
+.container{
+    background-color: #353349;
+}
+.texto{
+    background-color: #353349;
+}
+.texto p {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.texto ul {
+    padding-left: 20px;
+}
+
+.acepto {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}

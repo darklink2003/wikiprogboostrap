@@ -1,0 +1,40 @@
+body{
+    background-color: #353349;
+}
+.contenedor_Ayuda{
+    padding: 5px;
+    background-color: #353349;
+    color: white;
+    border-bottom: 4px solid white;
+}
+.contenedor_Ayuda_baja{
+    padding: 10px;
+}
+.row{
+    background-color: #353349;
+    padding: 10px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    padding-top: 10px;
+    list-style: none;}
+#busqueda {
+    background-color:#353349;
+    color: #ffffff;
+    width: 70%;
+    height: 30px;
+   
+}
+.input-with-icon input {
+    padding-left: 30px; /* Espacio para la imagen */
+    background-image: url(img/lupa2.png); /* Ruta de la imagen */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-position: right center; /* Posición de la imagen */
+    background-size: 20px; /* Tamaño de la imagen */
+    color: white; /* Color del texto */
+    width: 100%; /* Ancho del input */
+}

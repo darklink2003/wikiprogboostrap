@@ -7,6 +7,9 @@
     <!-- Link to your custom CSS file -->
     <link rel="stylesheet" href="css/admin_style.css">
     <!-- Link to Bootstrap CSS -->
+
+    <link rel="icon" href="css/img/lupa2.png" type="image/png">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
@@ -70,13 +73,13 @@
             </div>
             <br>
             <div id="titulo_curso" class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" style="padding: 10px;">
                     <input type="text" name="titulocurso" id="titulocurso" placeholder="Titulo del Curso">
                     <input type="text" name="Descripcion" id="Descripcion" placeholder="Descripcion">
                 </div>
                 <div class="col-md-6">
-                    <input type="button" value="Categoria">
-                    <input type="button" value="Nivel">
+                    <input type="button" id="categoria" value="Categoria">
+                    <input type="button" id="nivel" value="Nivel">
                 </div>
             </div>
             <br>
@@ -100,13 +103,14 @@
                     </div>
                 </div>
                 <div class="col-md-2" style="display: flex;">
-                    <div class="col-md-6">
-                        <input type="button" value="▼">
+                    <div class="col-md-6" id="agregar" style="height: 100%;">
+                        <input type="button" value="▼" style="height: 100%;">
                     </div>
-                    <div class="col-md-6">
-                        <input type="button" value="Agregar más">
+                    <div class="col-md-6" id="agregar" style="height: 100%;">
+                        <input type="button" value="Agregar más" style="height: 100%;">
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>

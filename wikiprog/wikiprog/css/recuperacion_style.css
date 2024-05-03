@@ -1,0 +1,82 @@
+body {
+    background-image: url(img/FONDO.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    margin-top: 15%;
+    height: 50%;
+}
+
+#containerregistro {
+    color: white;
+    border-radius: 20px;
+    border: 3px solid aqua;
+    background-color: #353349;
+    padding: 100px;
+    height: 400px;
+    width: 350px; /* Reducimos el ancho a 400px */
+}
+
+
+
+.containerregistro input[type="button"] {
+    background-color: #353349;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.containerregistro input[type="button"]:hover {
+    background-color: aqua;
+    color: #353349;
+}
+
+.containerregistro .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.containerregistro .col-md-12 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.titulo {
+    background-color: #353349;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    position: relative;
+    right: 10%;
+}
+/* imagen */
+.containerregistro input[type="button"] {
+    background-color: #353349;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    padding: 10px 40px 10px 30px; /* Ajusta el padding para dejar espacio para la imagen */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url("img/correo-electronico\ \(1\).png"); /* Ruta a tu imagen */
+    background-repeat: no-repeat;
+    background-position: left center; /* Posiciona la imagen a la derecha del texto */
+    background-size: 20px; /* Ajusta el tamaño de la imagen */
+}
+.button-container{
+    margin-left: 5%;
+    margin-right: 5%;
+}

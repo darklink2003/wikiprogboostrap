@@ -1,9 +1,9 @@
-/* decoracion.css */
+/* Estilos para la barra de tarea */
 body{
     background-image: url(img/FONDO.png);
     background-repeat: repeat;
     background-size: cover;
-    overflow-x: hidden;
+    overflow-x: hidden; 
 }
 .container_barra {
     background-color: #353349;
@@ -82,46 +82,63 @@ body{
     display: block;
 }
 
-#izquierda {
-    background-color:  rgb(24, 29, 29);
-    border-radius: 15px;
-    padding: 10px;
-}
-
-.enlace {
-    text-decoration: none;
-    color: white;
-    display: block;
-    margin-bottom: 10px; 
-}
-
-.container-fluid {
-    margin-top: 2px;
-    padding: 0px;
-}
-
+/* Estilos para el contenedor principal */
 .container {
-    padding: 10px;
-    background-color: rgb(24, 29, 29);
+    padding: 20px;
+}
+
+/* Estilos para el contenedor de descripción */
+.contenedor_descripcion {
+    background-color: #1a1924;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contenedor_descripcion .row {
+    height: 20%;
+}
+
+.contenedor_descripcion input[type="text"] {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.contenedor_descripcion button[type="button"] {
+    margin-right: 10px;
+}
+
+.contenedor_descripcion button,
+.contenedor_descripcion input[type="text"] {
+    background-color: #353349;
     color: white;
-    height: auto;
-
-}
-
-#busqueda {
-    background-color: rgb(12, 12, 13);
-    height: 30px;
-}
-
-.columna-titulo {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
     cursor: pointer;
 }
-.input-with-icon input {
-    padding-left: 30px; /* Espacio para la imagen */
-    background-image: url(img/lupa2.png); /* Ruta de la imagen */
-    background-repeat: no-repeat; /* Evita la repetición de la imagen */
-    background-position: right center; /* Posición de la imagen */
-    background-size: 20px; /* Tamaño de la imagen */
-    color: white; /* Color del texto */
-    width: 100%; /* Ancho del input */
+
+/* Estilos para el contenedor de lecciones */
+.contenedorleccion {
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.contenedorleccion .row {
+    padding: 10px;
+}
+
+.contenedorleccion .col-md-3 {
+    background-color: #353349;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contenedorleccion button {
+    height: 100%;
+    width: 50px;
+    
 }

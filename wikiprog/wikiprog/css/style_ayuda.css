@@ -2,6 +2,83 @@ body {
     background-color: #353349;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+}
+.container_barra {
+    background-color: #353349;
+    max-width: 100%;
+}
+
+.container_barra input {
+    background-color: #353349;
+    height: 30px;
+    width: 75%;
+    margin-top: 3%;
+    color: white;
+}
+
+.input-with-icon input {
+    padding-left: 30px;
+    background-image: url(img/lupa2.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 20px;
+    color: white;
+    width: 100%;
+}
+
+.container_barra #enlaces {
+    margin-top: 1%;
+}
+
+.container_barra #enlaces a {
+    text-decoration: none;
+    color: white;
+}
+
+.container_barra .dropbtn {
+    background-color: #353349;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.container_barra .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.container_barra .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #353349;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    list-style: none;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+.container_barra .hr {
+    background-color: white;
+}
+
+.container_barra .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.container_barra .dropdown-content a:hover {
+    text-align: left;
+}
+
+.container_barra .dropdown:hover .dropdown-content {
+    display: block;
 }
 
 .contenedor_Ayuda,
